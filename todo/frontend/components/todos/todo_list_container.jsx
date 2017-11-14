@@ -15,3 +15,4 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(TodoList);
+//<TodoList todos={allTodos(state)} receiveTodo={dispatch(receiveTodo(todo))}/>

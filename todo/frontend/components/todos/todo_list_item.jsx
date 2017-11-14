@@ -1,6 +1,13 @@
 import React from 'react';
-import TodoList from './todo_list_item';
+import TodoList from './todo_list';
 
 class TodoListItem extends React.Component {
-  return <li>props.todo.title</li>
+
+  render(){
+    return (
+    <li>{this.props.todo.title}</li>
+    );
+  }
 }
+
+export default TodoListItem;
